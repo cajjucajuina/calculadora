@@ -1,0 +1,44 @@
+/* Tema escuro */
+body.dark-theme {
+    --bg-color: var(--bg-color-dark);
+    --text-color: var(--text-color-dark);
+    --calculator-bg: var(--calculator-bg-dark);
+    --title-color: var(--title-color-dark);
+    --icon-color: var(--icon-color-dark);
+    
+    --history-bg: var(--history-bg-dark);
+    --history-text: var(--history-text-dark);
+    
+    --display-bg: var(--display-bg-dark);
+    --display-text: var(--display-text-dark);
+    
+    --btn-bg: var(--btn-bg-dark);
+    --btn-text: var(--btn-text-dark);
+    --btn-hover: var(--btn-hover-dark);
+    
+    --operation-btn-bg: var(--operation-btn-bg-dark);
+    --operation-btn-text: var(--operation-btn-text-dark);
+    --operation-btn-hover: var(--operation-btn-hover-dark);
+    
+    --clear-btn-bg: var(--clear-btn-bg-dark);
+    --clear-btn-text: var(--clear-btn-text-dark);
+    --clear-btn-hover: var(--clear-btn-hover-dark);
+    
+    --equal-btn-bg: var(--equal-btn-bg-dark);
+    --equal-btn-text: var(--equal-btn-text-dark);
+    --equal-btn-hover: var(--equal-btn-hover-dark);
+  }
+  
+  /* Ícones para o botão de alternar tema */
+  .theme-toggle .material-icons:before {
+    content: "light_mode";
+  }
+  
+  body.dark-theme .theme-toggle .material-icons:before {
+    content: "dark_mode";
+  }
+  
+  /* Animação de transição para mudança de tema */
+  .theme-transition {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }

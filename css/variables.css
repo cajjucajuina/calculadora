@@ -1,0 +1,88 @@
+:root {
+    /* Cores do tema claro */
+    --bg-color-light: #f5f5f5;
+    --text-color-light: #333333;
+    --calculator-bg-light: #ffffff;
+    --title-color-light: #333333;
+    --icon-color-light: #555555;
+    
+    --history-bg-light: #f9f9f9;
+    --history-text-light: #777777;
+    
+    --display-bg-light: #f0f0f0;
+    --display-text-light: #333333;
+    
+    --btn-bg-light: #f0f0f0;
+    --btn-text-light: #333333;
+    --btn-hover-light: #e0e0e0;
+    
+    --operation-btn-bg-light: #f8f8f8;
+    --operation-btn-text-light: #ff8c00;
+    --operation-btn-hover-light: #f0f0f0;
+    
+    --clear-btn-bg-light: #ffebee;
+    --clear-btn-text-light: #f44336;
+    --clear-btn-hover-light: #ffdde0;
+    
+    --equal-btn-bg-light: #ff8c00;
+    --equal-btn-text-light: #ffffff;
+    --equal-btn-hover-light: #ff7800;
+    
+    /* Cores do tema escuro */
+    --bg-color-dark: #121212;
+    --text-color-dark: #ffffff;
+    --calculator-bg-dark: #1e1e1e;
+    --title-color-dark: #ffffff;
+    --icon-color-dark: #bbbbbb;
+    
+    --history-bg-dark: #2d2d2d;
+    --history-text-dark: #aaaaaa;
+    
+    --display-bg-dark: #2d2d2d;
+    --display-text-dark: #ffffff;
+    
+    --btn-bg-dark: #2d2d2d;
+    --btn-text-dark: #ffffff;
+    --btn-hover-dark: #3d3d3d;
+    
+    --operation-btn-bg-dark: #333333;
+    --operation-btn-text-dark: #ff9f1c;
+    --operation-btn-hover-dark: #444444;
+    
+    --clear-btn-bg-dark: #4a2b2b;
+    --clear-btn-text-dark: #ff6b6b;
+    --clear-btn-hover-dark: #5a3535;
+    
+    --equal-btn-bg-dark: #ff9f1c;
+    --equal-btn-text-dark: #ffffff;
+    --equal-btn-hover-dark: #ffb347;
+    
+    /* Variáveis padrão (tema claro) */
+    --bg-color: var(--bg-color-light);
+    --text-color: var(--text-color-light);
+    --calculator-bg: var(--calculator-bg-light);
+    --title-color: var(--title-color-light);
+    --icon-color: var(--icon-color-light);
+    
+    --history-bg: var(--history-bg-light);
+    --history-text: var(--history-text-light);
+    
+    --display-bg: var(--display-bg-light);
+    --display-text: var(--display-text-light);
+    
+    --btn-bg: var(--btn-bg-light);
+    --btn-text: var(--btn-text-light);
+    --btn-hover: var(--btn-hover-light);
+    
+    --operation-btn-bg: var(--operation-btn-bg-light);
+    --operation-btn-text: var(--operation-btn-text-light);
+    --operation-btn-hover: var(--operation-btn-hover-light);
+    
+    --clear-btn-bg: var(--clear-btn-bg-light);
+    --clear-btn-text: var(--clear-btn-text-light);
+    --clear-btn-hover: var(--clear-btn-hover-light);
+    
+    --equal-btn-bg: var(--equal-btn-bg-light);
+    --equal-btn-text: var(--equal-btn-text-light);
+    --equal-btn-hover: var(--equal-btn-hover-light);
+  }
